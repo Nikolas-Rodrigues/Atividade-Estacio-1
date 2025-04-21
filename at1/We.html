@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhe conosco</title>
+    <link rel="stylesheet" href="css2.css">
+</head>
+
+<body>
+    <a href="home.html">
+        Voltar
+    </a>
+    <div class="form">
+        <h3>Nome</h3>
+        <input type="text" id="nome">
+
+        <h3>Email</h3>
+        <input type="email" id="email">
+
+        <h3>Currículo</h3>
+        <input type="file" id="curriculo">
+
+
+        <button onclick="envio()">Enviar</button>
+    </div>
+
+    <script>
+
+
+        function envio() {
+            var cont = 0
+            let nome = document.getElementById("nome")
+            if (nome.value == "") {
+                alert("Ops, Você esqueceu de por seu nome")
+            }
+            else {
+                cont = 1
+            }
+
+
+
+            let email = document.getElementById("email")
+            if (email.value == "") {
+                alert("Ops, Você esqueceu de por seu email")
+            }
+            else {
+                cont += 1
+            }
+
+
+
+            let curriculo = document.getElementById("curriculo")
+            if (curriculo.value == "") {
+                alert("Ops, Você esqueceu de por seu curriculo")
+            }
+            else {
+                cont += 1
+            }
+
+
+
+
+            if (cont == 3) {
+                ok()
+            }
+            else { }
+
+        }
+        function ok() {
+            alert("Candidatura enviado!");
+            document.getElementById("nome").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("curriculo").value = "";
+        }
+    </script>
+</body>
+
+</html>

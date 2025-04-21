@@ -1,0 +1,181 @@
+* {
+    Border: 0;
+    Padding: 0;
+    Margin: 0;
+}
+* button {
+    cursor: pointer;
+}
+body {
+    background-image: url('Src/fundo.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.logo {
+    width: 150px;
+    height: 40px;
+}
+
+.divCabecalho {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 99.5%;
+}
+
+.loginBotao {
+    background: none;
+    font-size: 10px;
+}
+
+.loginBotao:hover {
+    color: red;
+}
+
+.inputELupa {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.inputELupa input {
+    padding: 6px;
+    font-size: 14px;
+    width: 150px;
+    height: 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.botaoLupa {
+    background: none;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+}
+
+.lupa {
+    width: 10px;
+    height: 10px;
+}
+
+
+.a {
+    padding-left: 1300px;
+    padding-top: 5px;
+
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+
+.corpo {
+    padding-top: 1px;
+}
+
+.corpo button {
+    background: none;
+}
+
+
+.faixa {
+    height: 37px;
+    display: flex;
+    font-size: 12px;
+    background-color: bisque;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.promo {
+    color: rgb(255, 0, 0);
+    display: flex;
+    font-size: 110px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: space-around;
+}
+
+.grade {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.produtos {
+    background-color: rgb(245, 231, 214);
+    display: flex;
+    border: 2px black solid;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 100px;
+}
+
+.imgProd {
+    height: 150px;
+    width: 150px;
+}
+
+.Desconto,
+.ValorOld,
+.ValorNew,
+.Parcela {
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.Desconto {
+    color: rgb(194, 137, 84);
+}
+
+.ValorOld {
+    color: red;
+    text-decoration: line-through;
+}
+
+.Parcela {
+    color: green;
+}
+
+.BotaoCompra {
+    height: 40px;
+    width: 200px;
+    font-size: 17px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+    border-radius: 4%;
+    color: black;
+}
+.rodape{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+}
+
+.faq{
+    display: flex;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 100px 290px 215px 555px;
+    flex-direction: column;
+    padding: 40px;
+}
+.p{
+    font-size: 60px;
+}
+.r{
+    font-size: 20px;
+}
