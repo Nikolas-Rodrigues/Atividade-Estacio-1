@@ -172,6 +172,7 @@ body {
     margin: 100px 290px 215px 555px;
     flex-direction: column;
     padding: 40px;
+    background-color: white;
 }
 .p{
     font-size: 60px;
